@@ -1,0 +1,47 @@
+body{
+    margin:0 auto;
+    font-family: Arial, Tahoma;
+}
+
+#s-body{
+    float: left;
+}
+
+#head, #head-link, #s-body, #footer{
+    width: 100%;
+    margin-bottom:5px;
+    clear: both;
+}
+
+
+@media all and (min-width: 1001px){
+    body {
+        width: 980px;
+    }
+    #head {
+        height: 100px;
+        background-color: rebeccapurple;
+        border: 1px solid black;
+    }
+}
+@media all and (max-width: 1000px ) {
+    body {
+        width: 850px;
+    }
+    #head {
+        height: 80px ;
+        background-color: deeppink;
+        border: 1px solid darkred;
+    }
+}
+@media all and (max-width: 600px) {
+    body {
+        width: 540px ;
+    }
+    #head {
+        height: 40px ;
+        background-color: orange;
+        border: 1px solid darkblue;
+    }
+
+}
